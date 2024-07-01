@@ -1,8 +1,9 @@
 spring:
   application:
-    name: beacon-api
+    name: beacon-cache
   profiles:
     active: dev
+
   cloud:
     nacos:
       discovery:
@@ -10,4 +11,3 @@ spring:
       config:
         server-addr: 172.23.126.222:8848
         file-extension: yml
-
